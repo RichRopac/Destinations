@@ -1,0 +1,128 @@
+* { 
+    padding: 2px;
+    margin: 0;
+    border:0;
+    box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+header {
+  text-align: center;
+  font-family:"Calibri Light";  
+  border: 10px;
+  border-style: solid;
+  border-color: greenyellow;
+  background-color: lightcyan;
+  height: 200px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 50px;
+  padding-top:4cqh;
+}
+
+header h3 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+main {
+  min-height: 500px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  height:76vh;
+  flex: 1;
+}
+
+.column.input_column {
+    text-align: center;
+    border: 10px;
+    border-style: solid;
+    border-color:red;
+    background-color: white;
+    margin:10px 100px 0px 150px;
+}
+
+.column.display_column {
+    border: 10px;
+    border-style: solid;
+    border-color:blue;
+    background-color: white;
+    margin:10px 150px 20px 0px;
+}
+
+#user_input {
+  margin-left: 250px;
+  padding-top: 30px;
+  text-align: left;
+}
+label, input, textarea {
+  font-family: Calibri;
+  font-size: 20px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+
+}
+
+input, textarea {
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  width: 250px;
+  color:lightslategray;
+  margin-top: 8px;
+}
+
+input{
+  height: 30px;
+}
+
+textarea{
+  height: 100px;
+}
+
+button{
+  background-color: blue;
+  color:white;
+  height: 35px;
+  width: 250px;
+}
+
+#destination_details{
+  border: 10px;
+  border-style: solid;
+  border-color: blueviolet;
+  width:96%;
+  height:60px;
+  margin:5px 0px 0px 15px;
+}
+
+.empty_box {
+  border: 10px;
+  border-style: solid;
+  border-color: yellow;
+  height:600px;
+  margin:5px 15px 0px 15px;
+}
+
+.display_column input::placeholder{
+  color: black;
+  font-weight: bold;
+  padding-left:20px;
+}
+
+
